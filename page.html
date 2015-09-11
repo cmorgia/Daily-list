@@ -2,6 +2,7 @@
 <html lang="en" ng-app="docs">
     <head>
         <title>Documents</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
         <script src="bower_components/angular/angular.min.js"></script>
         <script src="bower_components/x2js/xml2json.min.js"></script>
         <script src="bower_components/angular-xml/angular-xml.min.js"></script>
@@ -10,7 +11,25 @@
         <script src="docs.js"></script>
     </head>
     <body ng-controller="DocsCtrl">
-        <ul>
+        <table>
+            <tr>
+                <th>Symbol</th>
+                <th>Title</th>
+                <th>Languages</th>
+            </tr>
+            <tr ng-repeat="doc in docs">
+                <td>{{doc.symbol}}</td>
+                <td>{{doc.title}}</td>
+                <td>
+                    <table>
+                        <tr>
+                            <td ng-repeat="lang in doc.langs"><div ng-bind-html="lang" class="language"></div></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <!-- <ul>
             <li ng-repeat="doc in docs">
                 <h3>{{doc.title}}</h1>
                 <a href="{{doc.link}}">{{doc.symbol}}</a>
@@ -20,6 +39,6 @@
                     </li>
                 </ul>
             </li>
-        </ul>
+        </ul> -->
     </body>
 </html>
