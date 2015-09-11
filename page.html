@@ -11,17 +11,19 @@
         <script src="docs.js"></script>
     </head>
     <body ng-controller="DocsCtrl">
-        <table>
+        <table class="doclist">
+            <thead>
             <tr>
                 <th>Symbol</th>
                 <th>Title</th>
                 <th>Languages</th>
             </tr>
+            </thead>
             <tr ng-repeat="doc in docs">
                 <td>{{doc.symbol}}</td>
                 <td>{{doc.title}}</td>
                 <td>
-                    <table>
+                    <table class="language">
                         <tr>
                             <td ng-repeat="lang in doc.langs"><div ng-bind-html="lang" class="language"></div></td>
                         </tr>
