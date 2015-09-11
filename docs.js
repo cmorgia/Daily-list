@@ -1,5 +1,5 @@
 angular
-  .module('docs', ['xml'])
+  .module('docs', ['xml','angular-bind-html-compile','ngSanitize'])
   .config(function ($httpProvider,x2jsProvider) {
   	x2jsProvider.config = {
       /*
