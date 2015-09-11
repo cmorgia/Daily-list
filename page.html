@@ -12,8 +12,13 @@
     <body ng-controller="DocsCtrl">
         <ul>
             <li ng-repeat="doc in docs">
-                <h1>{{doc.title}}</h1>
-                <div ng-bind-html="doc.description"></div>
+                <h3>{{doc.title}}</h1>
+                <a href="{{doc.link}}">{{doc.symbol}}</a>
+                <ul>
+                    <li ng-repeat="lang in doc.langs">
+                        <div ng-bind-html="lang"></div>
+                    </li>
+                </ul>
             </li>
         </ul>
     </body>

@@ -18,7 +18,24 @@ angular
     $httpProvider.interceptors.push('xmlHttpInterceptor');
   })
   .controller('DocsCtrl',function ($scope, $http) {
+    function parse(description) {
+      var inner = description.substring(description.indexOf('[')+1,description.indexOf(']'));
+      return inner.split("|");
+    }
+
     $http.get('http://undocs.org/rss/genevaundocs.xml').success(function (data) {
-      $scope.docs = data.rss.channel.item;
+      $scope.docs = [];
+      for (var idx=0; idx<data.rss.channel.item.length; idx++) {
+        var item = data.rss.channel.item[idx];
+        if (idx!=0) {
+          var obj = {};
+          obj.symbol = item.title;
+          obj.link = item.link;
+          obj.date = item.pubDate;
+          obj.title = item.description.split("[")[0].replace("<br />","");
+          obj.langs = parse(item.description);
+          $scope.docs.push(obj);
+        }
+      }
     });
   });
