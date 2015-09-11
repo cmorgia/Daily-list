@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>United Nations eSubscription Service</title>
+    <link>http://undocs.org/rss/genevaundocs.xml</link>
+    <description>United Nations Office in Geneva</description>
+    <language>en-us</language>
+    <pubDate>Wed, 09 Sep 2015 21:30:00 GMT</pubDate>
+    <atom:link href="http://undocs.org/rss/genevaundocs.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Documents issued at United Nations Office in Geneva on Wednesday, September 9 2015</title>
+      <link />
+      <description />
+      <pubDate>Wed, 09 Sep 2015 21:30:00 GMT</pubDate>
+      <category>Others</category>
+      <category>Geneva</category>
+      <guid isPermaLink="false">Documents issued at United Nations Office in Geneva on Wednesday, September 9 2015</guid>
+    </item>
+    <item>
+      <title>DL/GV/2015/0279</title>
+      <link>http://www.un.org/ga/search/view_doc.asp?symbol=DL/GV/2015/0279&amp;Lang=E</link>
+      <description>DL/GV/2015/0279&lt;br /&gt; [ &lt;a href="http://www.un.org/ga/search/view_doc.asp?symbol=DL/GV/2015/0279&amp;Lang=E" target="_blank" title="English"&gt;English&lt;/a&gt; ]</description>
+      <pubDate>Wed, 09 Sep 2015 21:30:00 GMT</pubDate>
+      <category>Others</category>
+      <category>Geneva</category>
+      <guid isPermaLink="false">DL/GV/2015/0279</guid>
+    </item>
+    <item>
+      <title>TD/B/62/7</title>
+      <link>http://www.un.org/ga/search/view_doc.asp?symbol=TD/B/62/7&amp;Lang=E</link>
+      <description>DEVELOPMENT STRATEGIES IN A GLOBALIZED WORLD: SOVEREIGN DEBT MANAGMENT: CHALLENGES AND POLICY PROPOSALS&lt;br /&gt; [ &lt;a href="http://www.un.org/ga/search/view_doc.asp?symbol=TD/B/62/7&amp;Lang=A" target="_blank" title="Arabic"&gt;Arabic&lt;/a&gt; | &lt;a href="http://www.un.org/ga/search/view_doc.asp?symbol=TD/B/62/7&amp;Lang=C" target="_blank" title="Chinese"&gt;Chinese&lt;/a&gt; | &lt;a href="http://www.un.org/ga/search/view_doc.asp?symbol=TD/B/62/7&amp;Lang=E" target="_blank" title="English"&gt;English&lt;/a&gt; | &lt;a href="http://www.un.org/ga/search/view_doc.asp?symbol=TD/B/62/7&amp;Lang=F" target="_blank" title="French"&gt;French&lt;/a&gt; | &lt;a href="http://www.un.org/ga/search/view_doc.asp?symbol=TD/B/62/7&amp;Lang=R" target="_blank" title="Russian"&gt;Russian&lt;/a&gt; | &lt;a href="http://www.un.org/ga/search/view_doc.asp?symbol=TD/B/62/7&amp;Lang=S" target="_blank" title="Spanish"&gt;Spanish&lt;/a&gt; ]</description>
+      <pubDate>Wed, 09 Sep 2015 21:30:00 GMT</pubDate>
+      <category>Others</category>
+      <category>Geneva</category>
+      <guid isPermaLink="false">TD/B/62/7</guid>
+    </item>
+  </channel>
+</rss>

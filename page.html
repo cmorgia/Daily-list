@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en" ng-app="docs">
+    <head>
+        <title>Documents</title>
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="bower_components/x2js/xml2json.min.js"></script>
+        <script src="bower_components/angular-xml/angular-xml.min.js"></script>
+        <script src="docs.js"></script>
+    </head>
+    <body ng-controller="DocsCtrl">
+        <ul>
+            <li ng-repeat="doc in docs">
+                {{doc.description}}
+            </li>
+        </ul>
+    </body>
+</html>
