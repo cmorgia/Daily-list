@@ -23,7 +23,7 @@ angular
       return inner.split("|");
     }
 
-    $http.get('http://undocs.org/rss/genevaundocs.xml').success(function (data) {
+    $http.get('/rss/genevaundocs.xml').success(function (data) {
       $scope.docs = [];
       for (var idx=0; idx<data.rss.channel.item.length; idx++) {
         var item = data.rss.channel.item[idx];
